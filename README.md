@@ -5,7 +5,7 @@ macOS で [browser-use](https://github.com/browser-use/browser-use) を試した
 ```shell
 python3.13 -m venv .venv
 source .venv/bin/activate
-pip install browser-use
+pip install -r requirements.txt
 playwright install
 ```
 
